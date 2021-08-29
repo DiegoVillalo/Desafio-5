@@ -1,0 +1,16 @@
+:root {
+    --fondo-rojo: red;
+    --fondo-verde: green;
+    --fondo-gris: gray;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    background: url("./img/fondo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+  }
