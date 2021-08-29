@@ -5,7 +5,7 @@ import { init as initResultados } from "./pages/resultados";
 
 const routes = [
   {
-    path: /\/Desafio-5\/bienvenido/,
+    path: /\/bienvenido/,
     component: initBienvenido,
   },
   {
@@ -39,7 +39,7 @@ export function initRouter(container: Element) {
   }
 
   if (location.host.includes("github.io")) {
-    goTo("/Desafio-5/bienvenido");
+    goTo("/bienvenido");
   } else {
     handleRoute(location.pathname);
   }
