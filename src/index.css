@@ -2,6 +2,7 @@
     --fondo-rojo: red;
     --fondo-verde: green;
     --fondo-gris: gray;
+    height: 100vh;
   }
   * {
     box-sizing: border-box;
@@ -13,4 +14,5 @@
     background-attachment: fixed;
     background-size: cover;
     margin: 0;
+    overflow: hidden;
   }
