@@ -9,15 +9,15 @@ const routes = [
     component: initBienvenido,
   },
   {
-    path: /\/Desafio-5\/reglas/,
+    path: /\/reglas/,
     component: initReglas,
   },
   {
-    path: /\/Desafio-5\/juego/,
+    path: /\/juego/,
     component: initJuego,
   },
   {
-    path: /\/Desafio-5\/resultados/,
+    path: /\/resultados/,
     component: initResultados,
   },
 ];
