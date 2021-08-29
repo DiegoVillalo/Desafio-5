@@ -17,7 +17,7 @@ customElements.define(
                     color: #fff;
                     width: 322px;
                     height: 87px;
-                    font-size: 45px;
+                    font-size: 35px;
                     text-align: center;
                     border-radius: 10px;
                     background: #006CFC;
