@@ -50,14 +50,14 @@ export function init(params) {
 
   const buttonBack = div.querySelector(".button-back");
   buttonBack.addEventListener("click", () => {
-    params.goTo("/juego/juego");
+    params.goTo("Desafio-5/juego");
   });
 
   const buttonClean = div.querySelector(".button-clean");
   buttonClean.addEventListener("click", () => {
     state.cleanData();
     state.getStorage();
-    params.goTo("/juego/reglas");
+    params.goTo("Desafio-5/reglas");
   });
 
   const style = document.createElement("style");

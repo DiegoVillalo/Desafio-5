@@ -39,7 +39,7 @@ export function init(params) {
 
   const button = div.querySelector(".btn-comp");
   button.addEventListener("click", () => {
-    params.goTo("/juego/juego");
+    params.goTo("Desafio-5/juego");
   });
   div.appendChild(style);
   return div;

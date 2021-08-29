@@ -5,19 +5,19 @@ import { init as initResultados } from "./pages/resultados";
 
 const routes = [
   {
-    path: /\/juego\/bienvenido/,
+    path: /\/Desafio-5\/bienvenido/,
     component: initBienvenido,
   },
   {
-    path: /\/juego\/reglas/,
+    path: /\/Desafio-5\/reglas/,
     component: initReglas,
   },
   {
-    path: /\/juego\/juego/,
+    path: /\/Desafio-5\/juego/,
     component: initJuego,
   },
   {
-    path: /\/juego\/resultados/,
+    path: /\/Desafio-5\/resultados/,
     component: initResultados,
   },
 ];
@@ -38,8 +38,8 @@ export function initRouter(container: Element) {
     });
   }
 
-  if (location.host.includes("DiegoVillalo.github.io")) {
-    goTo("/juego/bienvenido");
+  if (location.host.includes("github.io")) {
+    goTo("/Desafio-5/bienvenido");
   } else {
     handleRoute(location.pathname);
   }

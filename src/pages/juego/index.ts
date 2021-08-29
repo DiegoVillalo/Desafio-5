@@ -13,7 +13,7 @@ export function init(params) {
 
     if (counter < 0) {
       clearInterval(countdown);
-      params.goTo("/juego/reglas");
+      params.goTo("/reglas");
     }
   }, 1000);
 
@@ -159,7 +159,7 @@ export function init(params) {
       }
 
       setTimeout(() => {
-        params.goTo("/juego/resultados");
+        params.goTo("Desafio-5/resultados");
       }, 1500);
     }, 1500);
   }
