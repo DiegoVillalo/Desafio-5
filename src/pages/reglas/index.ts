@@ -22,7 +22,7 @@ export function init(params) {
     .page {
         width: 100%;
         height: 100vh;
-        padding-top: 100px;
+        padding-top: 75px;
         display: flex;
         align-items: center;
         flex-direction: column;
