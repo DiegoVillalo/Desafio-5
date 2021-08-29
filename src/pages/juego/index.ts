@@ -159,7 +159,7 @@ export function init(params) {
       }
 
       setTimeout(() => {
-        params.goTo("Desafio-5/resultados");
+        params.goTo("/resultados");
       }, 1500);
     }, 1500);
   }
